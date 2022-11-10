@@ -1,0 +1,8 @@
+*~
+*.o
+
+/client_tcp
+/serveur_tcp
+
+/lib/.depend
+/lib/client_serveur.a
