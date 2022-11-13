@@ -68,7 +68,7 @@ int attendre_client_tcp(int socket_serveur, int debug)
     RETURN(socket_client);
 }
 
-char *address_client(void)
+char *adresse_client(void)
 {
     return inet_ntoa(last_client_addr.sin_addr);
 }
