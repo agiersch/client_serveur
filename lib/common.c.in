@@ -4,6 +4,7 @@
 
 static const char NAME[] = "Petite bibliothèque client-serveur";
 static const char COPYRIGHT[] = "Copyright (c) 2022, Arnaud Giersch <arnaud.giersch@univ-fcomte.fr>";
+static const char VERSION[] = "Version du @@@DATE@@@";
 
 void print_copyright(int enabled)
 {
@@ -11,6 +12,6 @@ void print_copyright(int enabled)
     if (!enabled || printed)
         return;
 
-    fprintf(stderr, "%s\n%s\n", NAME, COPYRIGHT);
+    fprintf(stderr, "%s\n%s\n%s\n", NAME, COPYRIGHT, VERSION);
     printed = 1;
 }

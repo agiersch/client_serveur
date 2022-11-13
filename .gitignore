@@ -6,3 +6,4 @@
 
 /lib/.depend
 /lib/client_serveur.a
+/lib/common.c
