@@ -1,0 +1,15 @@
+Petite bibliothèque client/serveur.
+Copyright (c) 2022-2023, Arnaud Giersch <arnaud.giersch@univ-fcomte.fr>
+
+Utilisation
+===========
+
+Obtenir les fichiers client_serveur.a (bibliothèque), et client_serveur.h
+(fichier d'en-tête).
+
+Pour compiler, ajouter simplement la bibliothèque à la liste des fichiers source
+sur la ligne de commande :
+
+    $ gcc -g -Wall -Wextra -Og -o toto toto.c client_serveur.a  
+
+ou bien utiliser ce fichier Makefile donné en exemple.
